@@ -1,0 +1,15 @@
+include /etc/xpdf/xpdfrc
+
+continuousView yes
+initialZoom width
+
+bind c any toggleContinuousMode
+
+bind h any scrollLeft(80)
+bind l any scrollRight(80)
+
+bind k continuous scrollUp(80)
+bind j continuous scrollDown(80)
+
+bind k singlePage pageUp
+bind j singlePage pageDown
