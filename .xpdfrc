@@ -3,7 +3,8 @@ include /etc/xpdf/xpdfrc
 continuousView yes
 initialZoom width
 
-bind c any toggleContinuousMode
+bind c continuous toggleContinuousMode zoomFitPage
+bind c singlePage toggleContinuousMode zoomFitWidth
 
 bind h any scrollLeft(80)
 bind l any scrollRight(80)
